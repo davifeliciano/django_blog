@@ -12,6 +12,8 @@ python = "^3.10"
 Django = "^4.1.2"
 black = "^22.10.0"
 djlint = "^1.19.1"
+django-crispy-forms = "^1.14.0"
+crispy-bootstrap5 = "^0.7"
 
 
 [build-system]
