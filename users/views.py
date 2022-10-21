@@ -15,7 +15,7 @@ def register(request: HttpRequest) -> HttpResponse:
                 request,
                 f"Account created for user {username}! You are now able to login",
             )
-            return redirect("blog-home")
+            return redirect("login")
     else:
         form = UserRegisterForm()
     return render(request, "users/register.html", context={"form": form})
